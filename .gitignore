@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test-tmp/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# VaultQ local data
+.vaultq/
+*.db
+*.db-shm
+*.db-wal
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Personal notes are private by default
+笔记/**
+!笔记/.gitkeep
+outputs/**
+!outputs/.gitkeep
+wiki/**/*.md
+!wiki/VaultQ-使用说明.md
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
